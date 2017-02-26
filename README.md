@@ -12,6 +12,8 @@ Running:
 ```
 $ npm install
 $ node app.js
+restify listening to http://[::]:8080
+
 ```
 
 Example usage:
