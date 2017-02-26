@@ -1,33 +1,28 @@
-# Catalysts Lunch Bot
+# Catalysts Lunch Service
 
 :cow: :sushi: :hamburger: :spaghetti: :stew:
 
-Bringing back the glorious lunchbot!
+A service interface for lunchbot commands.
 
 :rice: :green_apple: :beers: :fork_and_knife: :poultry_leg:
 
 ## How to
 
-Just add [the bot](https://join.skype.com/bot/1e7994e1-ae54-4ed0-be74-05e16bc835d6) as contact in Skype (it is not published yet, so use the link here). In group chats use @cat-lunch-bot to talk to it.
-
-For getting started, try
-
+Running: 
 ```
-@cat-lunch-bot all
+$ npm install
+$ node app.js
 ```
+
+Example usage:
+```
+$ curl localhost:8080/menu/eisernehand
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    36  100    36    0     0    177      0 --:--:-- --:--:-- --:--:--   192"**Eiserne Hand**\n\nNo menu today."
+```
+
 
 ## Contributing
 
 Feel free to submit pull requests with more lunch commands! 
-
-## Testing
-
-First, run the bot 
-
-```
-node app.js
-```
-
-then, use the [Microsoft Bot Framework Emulator](https://docs.botframework.com/en-us/tools/bot-framework-emulator/) and connect to it.
-
-
