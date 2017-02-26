@@ -1,0 +1,19 @@
+{
+  "name": "catalysts-lunch-service",
+  "version": "0.0.1",
+  "description": "A service for the lunch crawler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Feichtinger",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "current-week-number": "^1.0.7",
+    "express": "^4.14.0",
+    "pdf2json": "^1.1.7",
+    "request": "^2.75.0",
+    "restify": "^4.1.1"
+  }
+}
